@@ -1,0 +1,399 @@
+@font-face 
+{
+    font-family: 'ralewaythin';
+    src: url('Polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('Polices/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    text-decoration: overline;
+}
+
+.hebergement
+{
+    color: #0065FC;
+}
+
+.inscrire
+{
+    color: #0065FC;
+}
+
+.activites
+{
+    color: black;
+}
+
+#intro
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    width: 31%;
+}
+
+#intro h3
+{
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+#intro p
+{
+    font-weight: bold;
+}
+
+#voyage
+{
+    display: flex;
+    margin-top: 35px;
+}
+
+#picto i
+{
+    margin-top: 11px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#picto
+{
+    background-color: #F2F2F2;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+#recherche
+{
+    height: 35px;
+    width: 15%;
+    border: #F2F2F2 1px solid;
+}
+
+button
+{
+    height: 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+}
+
+
+#ensemble_filtres
+{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px 30px 0px;
+}
+
+.filtre_mot
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.categories
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories p
+{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 30px;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.bouton
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: #F2F2F2 3px solid;
+    border-left: none;
+    border-radius: 52px;
+    margin: 0 10px
+}
+
+.picto
+{
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+#info
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info p
+{
+    margin: 0 12px;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.picto_info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #F2F2F2 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: #0065FC;
+}
+
+#conteneur_hebergement_populaires
+{
+    display: flex;
+    border: solid red 1px;
+    justify-content: space-between;
+}
+
+#prix
+{
+    border-radius: 20px;
+    width: 65%;
+    background-color: #F2F2F2;
+    border: white solid;
+}
+
+#prix h1
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.groupe
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carte
+{
+    width: 30%;
+    height: 216px;
+    border-radius: 20px;
+    margin-bottom: 37px;
+    background-color: white;
+    box-shadow: 0 0 19px #D8D8D8;
+}
+
+.carte h2
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 13px 0 11px 16px;
+}
+
+.carte p
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 16px;
+}
+
+.photo_chambre img
+{
+    width: 267px;
+    height: 122px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.photo
+{
+    object-fit: cover;
+}
+
+.photo_chambre
+{
+    display: flex;
+    justify-content: center;
+    padding: 4px 0 0 0;
+}
+
+.plus h2
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 15px 0 0 25px;
+}
+
+#conteneur_lespluspopulaires
+{
+    background-color: green;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.#conteneur_lespluspopulaires h1
+{
+    margin: 0 0 0 0;
+}
+
+.#conteneur_lespluspopulaires h1
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+}
+
+.titre_populaire
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.les_trois_cartes
+{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.carte_pop
+{
+    background-color: chocolate;
+    width: 83%;
+    height: 23%;
+    display: flex;
+    border-radius: 30px;
+}
+
+.chambre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chambre img
+{
+    width: 140px;
+    height: 140px;
+    margin: 0 11px;
+    border-radius: 30px;
+}
+
+.image
+{
+    object-fit: cover;
+}
+
+.texte
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.texte h2
+{
+    margin: 14px 0 0 14px;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+}
+
+.texte p
+{
+    margin: 3px 0 0 14px;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

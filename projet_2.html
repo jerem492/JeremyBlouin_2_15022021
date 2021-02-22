@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reservia</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="projet_2.css" />
+        <script src="https://kit.fontawesome.com/2bb8f6db97.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <div id="logo">
+            <img src="Logos/Reservia.svg" alt="logo" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><span class="hebergement">Hébergements</span></a></li>
+                    <li><a href="#"><span class="activites">Activités</span></a></li>
+                    <li><a href="#"><span class="inscrire">S'inscrire</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="intro">
+            <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <form>
+            <div id="voyage">
+                <div id="picto">
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                </div>
+                <input type="search" id="recherche" name="q" placeholder="Destination">
+                <button>Rechercher</button>
+            </div>
+        </form>
+
+        <div id="ensemble_filtres">
+            <div class="filtre_mot">
+                <p>Filtres</p>
+            </div>
+            <div class="categories">
+                <div class="bouton">
+                    <div class="picto">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <p>Économique</p>
+                </div>
+                <div class="bouton">
+                    <div class="picto">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <p>Familial</p>
+                </div>
+                <div class="bouton">
+                    <div class="picto">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <p>Romantique</p>
+                </div>
+                <div class="bouton">
+                    <div class="picto">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <p>Animaux autorisés</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="info">
+            <div class="picto_info"><i class="fas fa-info fa-xs"></i></div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+
+        <div id="conteneur_hebergement_populaires">
+            <section id="prix">
+                <h1>Hébergements à Marseilles</h1>
+                <aside class="groupe">
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/4.jpg" class="photo"/>
+                        </div>
+                        <h2>Auberge de la Cannebière</h2>
+                        <p>Nuit à partir de <strong>25€</strong></p>
+                    </article>
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/2.jpg" class="photo">
+                        </div>
+                        <h2>Hôtel du port</h2>
+                        <p>Nuit à partir de 52€</p>
+                    </article>
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/3.jpg" class="photo">
+                        </div>
+                        <h2>Hôtel Les mouettes</h2>
+                        <p>Nuit à partir de 76€</p>
+                    </article>
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/1.jpg" class="photo">
+                        </div>
+                        <h2>Hôtel de la mer</h2>
+                        <p>Nuit à partir de 46€</p>
+                    </article>
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/5.jpg" class="photo">
+                        </div>
+                        <h2>Auberge Le Panier</h2>
+                        <p>Nuit à partir de <strong>23€</strong></p>
+                    </article>
+                    <article class="carte">
+                        <div class="photo_chambre">
+                            <img src="hebergements/6.jpg" class="photo">
+                        </div>
+                        <h2>Hôtel chez Amina</h2>
+                        <p>Nuit à partir de 96€</p>
+                    </article>
+                </aside>
+                <span class="plus"><h2>Afficher plus</h2></span>
+            </section>
+
+            <section id="conteneur_lespluspopulaires">
+                <div class="titre_populaire">
+                    <h1>Les plus populaires</h1>
+                    <div class="picto_2">
+                        <i class="fas fa-chart-line fa-lg"></i>
+                    </div>
+                </div>
+                
+                <aside class="les_trois_cartes">
+                    <article class="carte_pop">
+                        <div class="chambre">
+                            <img src="hebergements/7.jpg" class="image">
+                        </div>
+                        <div class="texte">
+                            <h2>Hôtel Le soleil du matin</h2>
+                            <p>Nuit à partir de 128€</p>
+                        </div>
+                    </article>
+                    <article class="carte_pop">
+                        <div class="chambre">
+                            <img src="hebergements/8.jpg" class="image">
+                        </div>
+                        <div class="texte">
+                            <h2>Au coeur de l'eau Chambre d'hôtes</h2>
+                            <p>Nuit à partir de 71€</p>
+                        </div>
+                    </article>
+                    <article class="carte_pop">
+                        <div class="chambre">
+                            <img src="hebergements/9.jpg" class="image">
+                        </div>
+                        <div class="texte">
+                            <h2>Hôtel Tout bleu et Blanc</h2>
+                            <p>Nuit à partir de 68€</p>
+                        </div>
+                    </article>
+                </aside>
+            </section>
+        </div>
+    </body>
+</html>

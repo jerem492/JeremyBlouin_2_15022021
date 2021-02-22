@@ -198,7 +198,6 @@ button
 #conteneur_hebergement_populaires
 {
     display: flex;
-    border: solid red 1px;
     justify-content: space-between;
 }
 
@@ -253,8 +252,8 @@ button
 
 .photo_chambre img
 {
-    width: 267px;
-    height: 122px;
+    width: 96%;
+    height: 123px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -275,23 +274,24 @@ button
 {
     font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin: 15px 0 0 25px;
+    margin: 15px 0 35px 25px;
 }
 
 #conteneur_lespluspopulaires
 {
-    background-color: green;
-    width: 30%;
+    background-color: #F2F2F2;
+    width: 32%;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
-.#conteneur_lespluspopulaires h1
+#conteneur_lespluspopulaires h1
 {
     margin: 0 0 0 0;
 }
 
-.#conteneur_lespluspopulaires h1
+#conteneur_lespluspopulaires h1
 {
     font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
 }
@@ -301,12 +301,11 @@ button
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 35px 35px 0;
 }
 
 .les_trois_cartes
 {
-    background-color: blue;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -316,11 +315,12 @@ button
 
 .carte_pop
 {
-    background-color: chocolate;
+    background-color: white;
     width: 83%;
-    height: 23%;
+    height: 27%;
     display: flex;
     border-radius: 30px;
+    box-shadow: 0 0 19px #D8D8D8;
 }
 
 .chambre
@@ -332,10 +332,11 @@ button
 
 .chambre img
 {
-    width: 140px;
-    height: 140px;
-    margin: 0 11px;
-    border-radius: 30px;
+    width: 145px;
+    height: 93%;
+    margin: 0 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 .image

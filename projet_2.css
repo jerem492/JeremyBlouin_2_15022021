@@ -235,6 +235,11 @@ button
     box-shadow: 0 0 19px #D8D8D8;
 }
 
+.etoiles
+{
+    position: relative;
+}
+
 .carte h2
 {
     font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
@@ -363,11 +368,108 @@ button
     font-weight: bold;
 }
 
+#activites_marseilles
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 375px 375px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    border: solid red 1px;
+}
+
+.titre_activites
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.vieux_port
+{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.photo_vieux_port img
+{
+    width: 100%;
+    height: 700px;
+}
+
+.jpg
+{
+    object-fit: cover;
+} 
+
+.fort_de_pomegues
+ {
+     grid-column-start: 2;
+     grid-row-start: 2;
+     grid-row-end: 4;
+ }
+
+ .photo_fort img
+ {
+    width: 100%;
+    height: 260px;
+ }
+
+ .iles_du_frioul
+ {
+     grid-column-start: 2;
+     grid-row-start: 3;
+     grid-row-end: 4;
+ }
+
+ .photos_iles img
+ {
+     width: 100%;
+     height: 260px;
+ }
+
+ .calanques
+ {
+     grid-column-start: 3;
+     grid-column-end: 4;
+     grid-row-start: 2;
+     grid-row-end: 4;
+ }
+
+ .photo_calanques img
+ {
+     width: 100%;
+     height: 700px;
+ }
+
+ .notre_dame
+ {
+     grid-column-start: 4;
+     grid-column-end: 5;
+     grid-row-start: 2;
+     grid-row-end: 3;
+ }
+
+ .photo_notre_dame img
+ {
+     width: 100%;
+     height: 260px;
+ }
 
 
-
-
-
+ .longchamp
+ {
+     grid-column-start: 4;
+     grid-column-end: 5;
+     grid-row-start: 3;
+     grid-row-end: 4;
+ }
+ 
+ .photo_longchamp img
+ {
+     width: 100%;
+     height: 260px;
+ }
 
 
 

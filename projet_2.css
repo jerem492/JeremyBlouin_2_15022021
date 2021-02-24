@@ -381,7 +381,12 @@ button
 
 #activites_marseilles
 {
-    border: red solid 1px;
+    margin-top: 70px;
+}
+
+#activites_marseilles h1
+{
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
 }
 
 .conteneur_activites
@@ -391,53 +396,82 @@ button
     justify-content: space-between;
 }
 
-.grande_image
+.conteneur_activites h2
 {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    height: 600px;
+    margin: 15px 0 18px 20px;
+    font-family: 'ralewaythin', Arial, Helvetica, sans-serif;
 }
 
 .grande_image img
 {
-    width: 100%;
-    height: 85%;
+    width: 335px;
+    height: 530px;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
-.grande_image .jpg
+.grande_image
 {
+    border: solid 1px #F2F2F2;
+    box-shadow: 0 0 19px #D8D8D8;
+    border-radius: 30px;
+}
+
+.bloc_deux_photos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pomegues img
+{
+    width: 335px;
+    height: 250px;
     object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .pomegues
 {
-    width: 20%;
+    border: #F2F2F2 1px solid;
+    box-shadow: 0 0 19px #D8D8D8;
+    border-radius: 30px;
+}
+
+.frioul img
+{
+    width: 335px;
+    height: 165px;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .frioul
 {
-    width: 20%;
+    border: #F2F2F2 1px solid;
+    box-shadow: 0 0 19px #D8D8D8;
+    border-radius: 30px;
+}
+
+.notre_dame_longchamp img
+{
+    width: 335px;
+    height: 190px;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .notre_dame_longchamp
 {
-    width: 20%;
+    border: #F2F2F2 1px solid;
+    box-shadow: #D8D8D8 0 0 19px;
+    border-radius: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

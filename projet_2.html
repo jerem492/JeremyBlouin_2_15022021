@@ -13,21 +13,19 @@
 
   <body>
     <header>
-      <div id="logo">
-        <img src="Logos/Reservia.svg" alt="logo" />
-      </div>
       <nav>
-        <ul>
-          <li>
-            <a href="#"><span class="hebergement">Hébergements</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="activites">Activités</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="inscrire">S'inscrire</span></a>
-          </li>
-        </ul>
+        <div class="barre_nav">
+          <div id="logo">
+            <img src="Logos/Reservia.svg" alt="logo" />
+          </div>
+          <div class="hebergements">
+            <a href="#conteneur_hebergement_populaires">Hébergements</a>
+          </div>
+          <div class="activites">
+            <a href="#activites_marseilles">Activités</a>
+          </div>
+          <div class="inscrire"><a href="#">S'inscrire</a></div>
+        </div>
       </nav>
     </header>
     <div id="intro">
@@ -54,30 +52,30 @@
         <p>Filtres</p>
       </div>
       <div class="categories">
-        <div class="bouton">
+        <a href="#" class="bouton">
           <div class="picto">
             <i class="fas fa-money-bill-wave"></i>
           </div>
           <p>Économique</p>
-        </div>
-        <div class="bouton">
+        </a>
+        <a href="#" class="bouton">
           <div class="picto">
             <i class="fas fa-child"></i>
           </div>
           <p>Familial</p>
-        </div>
-        <div class="bouton">
+        </a>
+        <a href="#" class="bouton">
           <div class="picto">
             <i class="fas fa-heart"></i>
           </div>
           <p>Romantique</p>
-        </div>
-        <div class="bouton">
+        </a>
+        <a href="#" class="bouton">
           <div class="picto">
             <i class="fas fa-dog"></i>
           </div>
           <p>Animaux autorisés</p>
-        </div>
+        </a>
       </div>
     </div>
 
@@ -86,11 +84,11 @@
       <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
 
-    <div id="conteneur_hebergement_populaires">
-      <section id="prix">
+    <section id="conteneur_hebergement_populaires">
+      <div id="hebergements_marseilles">
         <h1>Hébergements à Marseilles</h1>
-        <aside class="groupe">
-          <article class="carte">
+        <div class="groupe">
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/4.jpg" class="photo" />
             </div>
@@ -107,8 +105,8 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte">
+          </a>
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/2.jpg" class="photo" />
             </div>
@@ -125,8 +123,8 @@
                 <i class="fas fa-star etoile_actif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte">
+          </a>
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/3.jpg" class="photo" />
             </div>
@@ -143,8 +141,8 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte">
+          </a>
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/1.jpg" class="photo" />
             </div>
@@ -161,8 +159,8 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte">
+          </a>
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/5.jpg" class="photo" />
             </div>
@@ -179,8 +177,8 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte">
+          </a>
+          <a href="#" class="carte">
             <div class="photo_chambre">
               <img src="hebergements/6.jpg" class="photo" />
             </div>
@@ -197,12 +195,12 @@
                 <i class="fas fa-star etoile_actif"></i>
               </div>
             </div>
-          </article>
-        </aside>
+          </a>
+        </div>
         <div class="plus"><h2>Afficher plus</h2></div>
-      </section>
+      </div>
 
-      <section id="conteneur_lespluspopulaires">
+      <div id="conteneur_lespluspopulaires">
         <div class="titre_populaire">
           <h1>Les plus populaires</h1>
           <div class="picto_2">
@@ -210,8 +208,8 @@
           </div>
         </div>
 
-        <aside class="les_trois_cartes">
-          <article class="carte_pop">
+        <div class="les_trois_cartes">
+          <a href="#" class="carte_pop">
             <div class="chambre">
               <img src="hebergements/7.jpg" class="image" />
             </div>
@@ -228,8 +226,8 @@
                 <i class="fas fa-star etoile_actif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte_pop">
+          </a>
+          <a href="#" class="carte_pop">
             <div class="chambre">
               <img src="hebergements/8.jpg" class="image" />
             </div>
@@ -246,8 +244,8 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-          <article class="carte_pop">
+          </a>
+          <a href="#" class="carte_pop">
             <div class="chambre">
               <img src="hebergements/9.jpg" class="image" />
             </div>
@@ -264,53 +262,53 @@
                 <i class="fas fa-star etoile_inactif"></i>
               </div>
             </div>
-          </article>
-        </aside>
-      </section>
-    </div>
+          </a>
+        </div>
+      </div>
+    </section>
 
     <div id="activites_marseilles">
       <h1>Activités à Marseilles</h1>
       <div class="conteneur_activites">
-        <div class="grande_image">
+        <a href="#" class="grande_image">
           <img
             src="Projet 2 - Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
           />
           <h2>Vieux Port</h2>
-        </div>
+        </a>
         <div class="bloc_deux_photos">
-          <div class="pomegues">
+          <a href="#" class="pomegues">
             <img
               src="Projet 2 - Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
             />
             <h2>Fort de Pomègues</h2>
-          </div>
-          <div class="frioul">
+          </a>
+          <a href="#" class="frioul">
             <img
               src="Projet 2 - Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
             />
             <h2>Îles du Frioul</h2>
-          </div>
+          </a>
         </div>
-        <div class="grande_image">
+        <a href="#" class="grande_image">
           <img
             src="Projet 2 - Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
           />
           <h2>Parc National des Calanques</h2>
-        </div>
+        </a>
         <div class="bloc_deux_photos">
-          <div class="notre_dame_longchamp">
+          <a href="#" class="notre_dame_longchamp">
             <img
               src="Projet 2 - Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
             />
             <h2>Notre-Dame-de-la-Garde</h2>
-          </div>
-          <div class="notre_dame_longchamp">
+          </a>
+          <a href="#" class="notre_dame_longchamp">
             <img
               src="Projet 2 - Reservia/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
             />
             <h2>Longchamp</h2>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -68,6 +68,10 @@ nav .inscrire {
   margin-left: 30px;
 }
 
+#intro p {
+  font-size: 0.9em;
+}
+
 #intro h3 {
   margin-bottom: 2px;
   margin-top: 30px;
@@ -471,7 +475,7 @@ footer p {
   margin: 8px 0 8px 0;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1520px) {
+@media screen and (max-width: 1520px) {
   #conteneur_hebergement_populaires {
     flex-direction: column;
   }
@@ -490,7 +494,6 @@ footer p {
   }
 
   #conteneur_lespluspopulaires {
-    margin-top: 50px;
     width: 100%;
   }
 
@@ -516,9 +519,17 @@ footer p {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 0;
   }
+
+  .nos_hebergements {
+    margin-left: 100px;
+  }
+
+  .assistance {
+    margin-left: 200px;
+  }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   nav .barre_nav {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -587,9 +598,14 @@ footer p {
   }
 
   .carte_pop {
-    width: 69%;
+    width: 48%;
+    height: 280px;
+    margin: 10px;
+  }
+
+  .chambre img {
+    width: 97%;
     height: 160px;
-    margin: 25px;
   }
 
   #activites_marseilles {
@@ -649,5 +665,122 @@ footer p {
 
   .assistance {
     margin: 40px 0 0 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #intro {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  #voyage {
+    margin-left: 35px;
+    margin-right: 55px;
+  }
+
+  #ensemble_filtres {
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .filtre_mot {
+    margin-left: 20px;
+  }
+
+  .bouton {
+    margin: 5px;
+  }
+
+  #hebergements_marseilles {
+    background-color: white;
+  }
+
+  .carte {
+    width: 98%;
+    height: 218px;
+  }
+
+  .photo_chambre img {
+    height: 123px;
+  }
+
+  #conteneur_lespluspopulaires {
+    margin-bottom: 0;
+  }
+
+  .titre_populaire {
+    margin-bottom: 20px;
+  }
+
+  .carte_pop {
+    width: 98%;
+    height: 140px;
+    flex-direction: row;
+    margin: 5px 0 5px 0;
+  }
+
+  .chambre img {
+    width: 126px;
+    height: 154px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 30px;
+    margin: 4px 4px;
+  }
+
+  #activites_marseilles {
+    display: grid;
+    grid-template-rows: auto repeat(6, 180px);
+    row-gap: 20px;
+  }
+
+  .titre_activites {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .carte_vieux_port {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .carte_pomegues {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+
+  .carte_frioult {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  .carte_calanques {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  .carte_notre_dame {
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
+
+  .carte_longchamp {
+    grid-column: 1/3;
+    grid-row: 7/8;
+  }
+
+  footer .a_propos {
+    margin: 10px 0 30px 30px;
+  }
+
+  footer .nos_hebergements {
+    margin: 0 0 30px 30px;
+  }
+
+  footer .assistance {
+    margin: 0 0 0 30px;
   }
 }

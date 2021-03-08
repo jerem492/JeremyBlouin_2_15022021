@@ -99,7 +99,7 @@ nav .inscrire {
   border: #f2f2f2 1px solid;
 }
 
-button {
+#voyage button {
   height: 43px;
   width: 12ch;
   border-top-right-radius: 8px;
@@ -108,6 +108,10 @@ button {
   background-color: #0065fc;
   color: white;
   font-weight: bold;
+}
+
+#voyage button i {
+  display: none;
 }
 
 #ensemble_filtres {
@@ -677,6 +681,18 @@ footer p {
   #voyage {
     margin-left: 35px;
     margin-right: 55px;
+  }
+
+  #voyage button {
+    width: 5ch;
+  }
+
+  #voyage button i {
+    display: inline;
+  }
+
+  #voyage button span {
+    display: none;
   }
 
   #ensemble_filtres {

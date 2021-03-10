@@ -33,6 +33,7 @@ nav a:hover {
 nav a {
   padding: 40px 40px 0 40px;
   margin-top: -38px;
+  font-weight: 500;
 }
 
 nav .hebergements {
@@ -85,8 +86,8 @@ nav .inscrire {
 
 #picto {
   background-color: #f2f2f2;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,9 +102,9 @@ nav .inscrire {
 
 #voyage button {
   height: 43px;
-  width: 12ch;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  width: 14ch;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
   border: none;
   background-color: #0065fc;
   color: white;
@@ -149,12 +150,13 @@ nav .inscrire {
   border: #f2f2f2 3px solid;
   border-left: none;
   border-radius: 52px;
-  margin: 0 10px;
+  margin: 0 15px;
+  height: 43px;
 }
 
 .picto {
-  width: 52px;
-  height: 52px;
+  width: 44px;
+  height: 44px;
   border-radius: 52px;
   display: flex;
   justify-content: center;
@@ -195,7 +197,6 @@ nav .inscrire {
 #hebergements_marseilles {
   border-radius: 20px;
   background-color: #f2f2f2;
-  border: white solid;
   margin-right: 35px;
   width: 62%;
 }
@@ -241,10 +242,11 @@ nav .inscrire {
 }
 
 .photo_chambre img {
-  width: 96%;
+  width: 100%;
   height: 123px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin: 5px 7px;
 }
 
 .photo {
@@ -254,7 +256,6 @@ nav .inscrire {
 .photo_chambre {
   display: flex;
   justify-content: center;
-  padding: 4px 0 0 0;
 }
 
 .carte .texte {
@@ -321,10 +322,10 @@ nav .inscrire {
 
 .chambre img {
   width: 145px;
-  height: 93%;
-  margin: 0 5px;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  height: 100%;
+  margin: 6px 6px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
 }
 
 .image {
@@ -534,31 +535,8 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
-  nav .barre_nav {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 70px);
-    margin: 0;
-  }
-
-  nav #logo {
-    margin-left: 30px;
-  }
-
-  nav .inscrire {
-    justify-content: flex-end;
-  }
-
-  nav .hebergements {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    border-bottom: solid 3px #0065fc;
-  }
-
-  nav .activites {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    border-bottom: solid 3px #f2f2f2;
+  nav a {
+    padding: 40px 0 0 0;
   }
 
   .bouton {
@@ -673,6 +651,33 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+  nav .barre_nav {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 70px);
+    margin: 0;
+  }
+
+  nav #logo {
+    margin-left: 30px;
+  }
+
+  nav .inscrire {
+    justify-content: flex-end;
+  }
+
+  nav .hebergements {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-bottom: solid 3px #0065fc;
+  }
+
+  nav .activites {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-bottom: solid 3px #f2f2f2;
+  }
+
   #intro {
     margin-left: 41px;
     margin-right: 41px;
@@ -684,7 +689,9 @@ footer p {
   }
 
   #voyage button {
-    width: 5ch;
+    width: 6ch;
+    border-radius: 15px;
+    margin-left: -3%;
   }
 
   #voyage button i {
@@ -705,6 +712,7 @@ footer p {
 
   .filtre_mot {
     margin-left: 20px;
+    margin-bottom: 10px;
   }
 
   .bouton {
@@ -715,9 +723,14 @@ footer p {
     background-color: white;
   }
 
+  #hebergements_marseilles h1 {
+    padding-top: 35px;
+  }
+
   .carte {
     width: 98%;
     height: 218px;
+    margin-bottom: 15px;
   }
 
   .photo_chambre img {
@@ -726,24 +739,31 @@ footer p {
 
   #conteneur_lespluspopulaires {
     margin-bottom: 0;
+    border-radius: 0;
   }
 
   .titre_populaire {
     margin-bottom: 20px;
   }
 
+  .les_trois_cartes {
+    margin-bottom: 30px;
+  }
+
   .carte_pop {
     width: 98%;
     height: 140px;
     flex-direction: row;
-    margin: 5px 0 5px 0;
+    margin: 5px 17px 5px 17px;
+    border-radius: 20px;
   }
 
   .chambre img {
     width: 126px;
     height: 154px;
     border-top-right-radius: 0;
-    border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
     margin: 4px 4px;
   }
 

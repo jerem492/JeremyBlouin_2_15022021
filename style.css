@@ -84,7 +84,7 @@ nav .inscrire {
   margin-left: 30px;
 }
 
-#picto {
+#picto_recherche {
   background-color: #f2f2f2;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -180,8 +180,8 @@ nav .inscrire {
   align-items: center;
   justify-content: center;
   border: solid #f2f2f2 2px;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border-radius: 20px;
   color: #0065fc;
 }
@@ -226,11 +226,6 @@ nav .inscrire {
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-.carte:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .etoile_inactif {
@@ -309,11 +304,6 @@ nav .inscrire {
   transition: 0.3s ease-in-out;
 }
 
-.carte_pop:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 .chambre {
   display: flex;
   flex-direction: column;
@@ -351,18 +341,6 @@ nav .inscrire {
   margin: 60px 30px 60px 30px;
 }
 
-#activites_marseilles a {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-#activites_marseilles a:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 .titre_activites {
   grid-column: 1/5;
   margin-bottom: 30px;
@@ -377,12 +355,12 @@ nav .inscrire {
   box-shadow: 0 0 19px #d8d8d8;
 }
 
-.photo_carte {
+.photo_activites {
   position: relative;
   flex: auto;
 }
 
-.photo_carte img {
+.photo_activites img {
   position: absolute;
   object-fit: cover;
   width: 100%;

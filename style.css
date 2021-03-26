@@ -7,6 +7,9 @@
 
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -515,6 +518,10 @@ footer p {
 @media screen and (max-width: 1024px) {
   nav a {
     padding: 40px 0 0 0;
+  }
+
+  nav a:hover {
+    border-top: none;
   }
 
   .bouton {
